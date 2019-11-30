@@ -6,10 +6,10 @@
 ##  Input:
 ##    b_big      is the dimensionless group B == (b u^2) / (m g)
 ##               or a list of such values
-##    abs_tol    is the absolute tolerance in phi_pd
+##    abs_tol    is the absolute tolerance in phi_pd (default 0.01)
 ##  Output:
 ##    phi_pd_opt is the optimal launch angle phi divided by a degree,
-##               i.e. phi_opt / degree (default 0.01)
+##               i.e. phi_opt / degree
 ##               or the list of such values corresponding to b_big 
 ##  For more details see trajectory.m.
 
