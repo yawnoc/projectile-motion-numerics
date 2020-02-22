@@ -5,4 +5,4 @@ GNU Octave code for
 
 Linguist seems to think it is a combination of Mercury, MATLAB and M.
 
-[weak-drag]: https://yawnoc.github.io/pages/optimal-angle-weak-drag.html
+[weak-drag]: https://yawnoc.github.io/math/projectile-weak-drag.html
