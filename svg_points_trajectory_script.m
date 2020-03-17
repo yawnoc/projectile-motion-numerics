@@ -11,4 +11,4 @@ len = r_big / 10;
 x_sol =  x_sol / len;
 y_sol = -y_sol / len;
 
-csvwrite ("svg-points-trajectory.csv", [x_sol, y_sol], "precision", 3);
+csvwrite ("svg_points_trajectory.csv", [x_sol, y_sol], "precision", 3);
