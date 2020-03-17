@@ -7,7 +7,7 @@ u_per_c_values *= 5;
 phi_pd_opt_values *= -1;
 
 csvwrite (
-  "svg-points-u-phi.csv",
+  "svg_points_u_phi.csv",
   [u_per_c_values, phi_pd_opt_values],
   "precision", 4
 );
