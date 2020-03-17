@@ -8,7 +8,7 @@ b_big_values = [ ...
 phi_pd_opt_values = optimal_angle (b_big_values);
 
 csvwrite (
-  "table-b-phi.csv",
+  "table_b_phi.csv",
   [b_big_values, phi_pd_opt_values],
   "precision", 3
 );
@@ -21,7 +21,7 @@ phi_pd_opt_asy_values = optimal_angle_asymptotic (b_big_values);
 percent_error_values = (phi_pd_opt_asy_values ./ phi_pd_opt_values - 1) * 100;
 
 csvwrite (
-  "table-b-phi-asymptotic.csv",
+  "table_b_phi_asymptotic.csv",
   [b_big_values, phi_pd_opt_asy_values, percent_error_values],
   "precision", 3
 );
