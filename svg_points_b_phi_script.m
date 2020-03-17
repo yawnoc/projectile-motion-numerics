@@ -6,7 +6,7 @@ b_big_values *= 4;
 phi_pd_opt_values *= -1;
 
 csvwrite (
-  "svg-points-b-phi.csv",
+  "svg_points_b_phi.csv",
   [b_big_values, phi_pd_opt_values],
   "precision", 4
 );
